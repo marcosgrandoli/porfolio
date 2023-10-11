@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="logo.png" type="image/png">
+    <title>Marcos Grandoli | Frontend Developer</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Portfolio</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#acerca-de">Acerca de Mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#certificados">Certificados</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section" id="inicio">
+      <div class="section__container">
+        <div class="content">
+          <p class "subtitle">Hola</p>
+          <h1 class="title">
+            Soy <span>Marcos Grandoli,</span> Frontend Developer
+          </h1>
+          <p class="description">
+            Buenas, me presento. Tengo 25 años y actualmente me encuentro estudiando desarrollo web Full Stack en la UTN de manera becada por la Fundación Empujar. Estoy emocionado por compartir mi portfolio con vos y espero que sea de tu agrado.
+          </p>
+          <div class="action__btns">
+            <a class="hire__me" href="marcosgrandolicv.pdf" target="_blank">Currículum</a>
+            <a class="portfolio" href="https://www.linkedin.com/in/marcos-gabriel-grandoli-302009245/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/profile.jpg" alt="Foto de perfil" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about"id= "acerca-de">
+      <div class="about__content">
+        <div class="about__text">
+          <p class="description">
+            Siempre he sido una persona profundamente curiosa y apasionada por la tecnología y la filosofía. Hasta hace poco, me encontraba inmerso en mis estudios de Psicología, pero en la actualidad, he emprendido un emocionante viaje en el mundo de la tecnología, desafiándome constantemente y con la aspiración de, en algún momento, unir estas dos disciplinas.
+          </p>
+          <p class="description">
+            Mi trayectoria incluye experiencia como editor de video y trabajos en diseño gráfico y filmaker. Me considero una persona con una mente creativa, y tengo un profundo amor por el diseño.
+          </p>
+          <p class="description">
+            En mis proyectos, me esfuerzo por crear experiencias auténticas para las personas, buscando que se sientan cómodas al interactuar con las páginas web y aplicaciones que desarrollo.
+          </p>
+         
+        </div>
+        <div class="about__image">
+          <img src="dibujo.jpeg" alt="Marcos Grandoli" />
+        </div>
+      </div>      
+        <div class="skills">
+          <h3 class="subtitle">Habilidades</h3>
+          <div class="skills__list">
+            <!-- Aquí puedes agregar logos de lenguajes de programación -->
+            <div class="skill">
+              <img src="html.png" alt="HTML" />
+            </div>
+            <div class="skill">
+              <img src="css.png" alt="CSS" />
+            </div>
+            <div class="skill">
+              <img src="js.png" alt="JavaScript" />
+            </div>
+            <div class="skill">
+              <img src="Python.png" alt="Python" />
+            </div>
+            <!-- Agrega más habilidades si es necesario -->
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="projects" id="proyectos">
+      <h2 class="section__title">Proyectos</h2>
+      <div class="projects__list">
+        <div class="project">
+          <img src="DAO.png" alt="DataDAO" />
+          <p>DataDAO es un proyecto que se dedica a recopilar información sobre las Organizaciones Autónomas Descentralizadas (DAO) y su influencia en una amplia variedad de organizaciones, desde grupos sociales pequeños hasta grandes empresas. Utilizando la tecnología blockchain, DataDAO busca proporcionar conocimientos prácticos y casos de uso reales para mostrar cómo las DAOs están transformando la toma de decisiones y la gobernanza en diferentes contextos.</p>
+        </div>
+        <div class="project">
+          <img src="nova.png" alt="Proyecto NOVA" />
+          <p>Nova es un emocionante proyecto grupal diseñado para brindar una experiencia de aprendizaje lúdica y divertida, totalmente en línea. Nuestra misión es fomentar el conocimiento y el crecimiento personal a través de un enfoque educativo interactivo, estimulante y accesible para todos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates" id="certificados">
+      <h2 class="section__title">Certificados</h2>
+      <div class="certificates__list">
+        <div class="certificate">
+          <img src="certificado.jpg" alt="Certificado 1" />
+        </div>
+        <div class="certificate">
+          <img src="certificado.jpg" alt="Certificado 2" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="section__container">
+        <h2 class="subtitle">Contacto</h2>
+        <p class="description">
+          ¡Estoy listo para trabajar! Si tienes alguna pregunta o
+          simplemente me queres saludar, no dudes en ponerte en contacto conmigo.
+        </p>
+        <div class="contact__form">
+          <form>
+            <input type="text" placeholder="Nombre" required />
+            <input type="email" placeholder="Correo Electrónico" required />
+            <textarea
+              rows="5"
+              placeholder="Mensaje"
+              required
+            ></textarea>
+            <button type="submit">Enviar Mensaje</button>
+          </form>
+        </div>
+        <p class="contact-info">
+          Podes contactarme por correo electrónico:
+          <a href="mailto:marcosgrandolicontacto@gmail.com"
+            >marcosgrandolicontacto@gmail.com</a
+          >
+          o a través de WhatsApp: +54 11 3071-5937.
+        </p>
+      </div>
+    </section>
+
+    <script>
+      // Script para el desplazamiento suave al hacer clic en los enlaces del menú
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            window.scrollTo({
+              behavior: 'smooth',
+              top: targetElement.offsetTop - 200, // Ajusta la cantidad de desplazamiento según tu diseño
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
